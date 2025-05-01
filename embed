@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .iframe-container {
+      position: relative;
+      width: 600px;
+      height: 373.5px;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .footer-mask {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      z-index: 10;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Goway Executive Power BI View</h2>
+  <div class="iframe-container">
+    <iframe
+      src="https://app.powerbi.com/view?r=eyJrIjoiMDEwMjBiZjItYzg4NC00ZjhmLWE4NjUtODg0MDc5YzYwMTc0IiwidCI6ImUzZjk1ZThmLWQ5MmQtNDk3ZS05Y2Q2LTljMzUzM2YyMzFlOCJ9"
+      allowfullscreen="true">
+    </iframe>
+    <div class="footer-mask"></div>
+  </div>
+</body>
+</html>
